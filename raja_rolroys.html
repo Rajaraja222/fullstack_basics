@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolls-Royce Car Advertisement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .content img {
+            width: 100%;
+            height: auto;
+        }
+        .contact-form {
+            background-color: #f8f8f8;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Rolls-Royce Phantom</h1>
+        <p>Experience the epitome of luxury and performance.</p>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <img src="https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rolls-roycemotorcars/motor-cars/phantom/bespoke/rrmc_phantom-extended_wraith-overview_thumb.jpg" alt="Rolls-Royce Phantom">
+            <h2>The Rolls-Royce Phantom</h2>
+            <p>The Rolls-Royce Phantom is the pinnacle of automotive luxury, offering an unmatched combination of refinement, comfort, and performance. With its iconic design, bespoke craftsmanship, and advanced technology, the Phantom sets a new standard in the world of high-end automobiles.</p>
+            <ul>
+                <li>6.75-liter V12 engine</li>
+                <li>563 horsepower</li>
+                <li>0-60 mph in 5.1 seconds</li>
+                <li>Hand-crafted interior</li>
+                <li>Advanced driver assistance systems</li>
+            </ul>
+            <p>Experience the ultimate in luxury and performance with the Rolls-Royce Phantom. Schedule a test drive today and discover why the Phantom is the choice of discerning drivers around the world.</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
